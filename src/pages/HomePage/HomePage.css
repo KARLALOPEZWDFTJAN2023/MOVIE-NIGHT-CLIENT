@@ -1,0 +1,69 @@
+*{
+    background-color: rgb(139, 20, 20);
+    }
+    
+    .home{
+        margin-top: 60px;
+        background-color: rgb(139, 20, 20);
+
+        color:azure;
+        font-size: 37px;
+      
+      }
+    
+    
+      
+      #tittle{
+          margin: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      #tittle header h2 {
+          font-size: 40px;
+          font-weight: 900;
+          margin: 5px;
+      }
+      
+      #tittle header p {
+          font-size: 20px;
+      }
+      
+    
+      .introHeader {
+          text-align: center;
+          margin-top: 50px;
+          font-size: 30px;
+          color: azure;
+        }
+        
+        .info {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 50px;
+        }
+        
+        .infotext {
+          width: 50%;
+          padding: 0 50px;
+        }
+        
+       
+        
+        .introtext {
+          font-size: 23px;
+          line-height: 1.5;
+          color: rgb(250, 249, 249);
+          margin-bottom: 40px;
+          max-width: 800px;
+        }
+        
+        .movie {
+          width: 90%;
+          max-width: 800px;
+          object-fit: cover;
+          border-radius: 10px;
+      
+        }
