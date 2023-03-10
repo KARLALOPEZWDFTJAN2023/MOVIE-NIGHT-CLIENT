@@ -1,3 +1,146 @@
 .App {
   text-align: center;
 }
+
+.palomitas{
+  height: 70px;
+  width: 80px;
+}
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 600px;
+  background: #161a2b;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+h1 {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.todo-form {
+  margin-bottom: 32px;
+}
+
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #fbfaf9;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+  font-size: 20px;
+}
+
+.todo-input::placeholder {
+  color: #e2e2e2;
+}
+
+.todo-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background-image: url(https://i.pinimg.com/474x/4f/e3/e1/4fe3e1c0188e4cba1edf997c261e5bc3.jpg);
+  font-size: 18px;
+  color: rgb(4, 1, 1);
+  text-transform: capitalize;
+}
+
+.todo-input.edit {
+  border: 2px solid #f8f9fa;
+}
+
+.todo-button.edit {
+  background-image: url(https://i.pinimg.com/474x/4f/e3/e1/4fe3e1c0188e4cba1edf997c261e5bc3.jpg);
+  padding: 16px 22px;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 10 12px 15px rgba(197, 163, 163, 0.3);
+  margin: 35px auto;
+  color: rgb(249, 248, 248);
+  border: 1px solid #ccc;
+  background: linear-gradient(
+    90deg,
+    rgb(139, 20, 20)
+    rgb(111, 26, 18) 100%
+  );
+  font-size: 20px;
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.todo-row:nth-child(4n + 1) {
+  border: 1px solid #ccc;
+  background: linear-gradient(
+    90deg,
+    rgb(139, 20, 20)
+    rgb(111, 26, 18) 100%
+  );
+}
+
+.todo-row:nth-child(4n + 2) {
+  
+  border: 1px solid #ccc;
+  background: linear-gradient(
+    90deg,
+    rgb(139, 20, 20)
+    rgb(111, 26, 18) 100%
+  );
+
+}
+
+.todo-row:nth-child(4n + 3) {
+  border: 1px solid #ccc;
+  background: linear-gradient(
+    90deg,
+    rgb(139, 20, 20)
+    rgb(111, 26, 18) 100%
+  );
+
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.edit-icon {
+  color: #fff;
+}

@@ -3,6 +3,7 @@ import axios from 'axios';
 class ExampleService {
   constructor() {
     this.api = axios.create({
+      //usar las dos 
       baseURL: process.env.REACT_APP_SERVER_URL || "http://localhost:5005"
     });
 

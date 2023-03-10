@@ -42,16 +42,17 @@ function TodoList() {
 
   return (
     <>
-      <h1>Cual es el plan para hoy?</h1>
-      <h1>MIS PELICULAS</h1>
-
+    
+        <div className='textTodo'>
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}
         completeTodo={completeTodo}
         removeTodo={removeTodo}
         updateTodo={updateTodo}
+      
       />
+       </div>
     </>
   );
 }
