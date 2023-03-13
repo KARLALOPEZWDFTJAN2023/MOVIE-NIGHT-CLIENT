@@ -45,6 +45,29 @@ function App() {
             </IsAnon>
           }
         />
+
+
+        <Route
+          path="/movies"
+          element={
+              <MoviesPage />
+          }
+        />
+
+          <Route
+          path="/movies/create"
+          element={
+              <CreatePage />
+          }
+        />
+
+          <Route
+          path="/movies/edit/:id"
+          element={
+              <EditPage/>
+          }
+        />
+
       </Routes>
     </div>
   );

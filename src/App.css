@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+.LoginPage{
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid rgb(247, 250, 251);
+  border-radius: 5px;
+  box-shadow: 30px 20px 10px rgba(243, 242, 242, 0.343);
+
+}
+.SignupPage{
+  background-color: rgb(139, 20, 20);
+   width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid rgb(247, 250, 251);
+  border-radius: 5px;
+  box-shadow: 30px 20px 10px rgba(243, 242, 242, 0.343);}
+  
 .palomitas{
   height: 70px;
   width: 80px;

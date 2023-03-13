@@ -21,34 +21,36 @@ class ExampleService {
   }
 
   // POST /api/examples
-  createOne = async (requestBody) => {
-    return this.api.post('/api/examples', requestBody);
+  getMovies = async () => {
+    return this.api.get("/api/all-movies");
   }
 
+
+
   // GET /api/examples
-  getAll = async () => {
-    return this.api.get('/api/examples');
+  createMovies = async (requestBody) => {
+    return this.api.post('/api/crete/movies', requestBody);
   }
 
   // GET /api/examples/:id
   getOne = async (id) => {
-    return this.api.get(`/api/examples/${id}`);
+    return this.api.get(`/api//movie/${id}`);
   }
 
   // PUT /api/examples/:id
   updateOne = async (id, requestBody) => {
-    return this.api.put(`/api/examples/${id}`, requestBody);
+    return this.api.put(`/api/update/${id}`, requestBody);
   }
 
   // DELETE /api/examples/:id
   deleteProject = async (id) => {
-    return this.api.delete(`/api/examples/${id}`);
+    return this.api.delete(`/api/delete/${id}`);
   } 
 
 
 }
 
 // Create one instance of the service
-const exampleService = new ExampleService();
+const moviesService = new MoviesService();
 
-export default exampleService;
+export default moviesService;

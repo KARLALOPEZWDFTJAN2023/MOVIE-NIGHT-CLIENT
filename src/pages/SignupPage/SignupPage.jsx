@@ -75,4 +75,6 @@ function SignupPage() {
   );
 }
 
+<img src="https://media.istockphoto.com/id/1271522601/photo/pop-corn-and-on-red-armchair-cinema.jpg?s=612x612&w=0&k=20&c=XwQxmfrHb-OwV5onPUW5ApB4RaGBK7poSIzZj4q_N_g="></img>
+
 export default SignupPage;
