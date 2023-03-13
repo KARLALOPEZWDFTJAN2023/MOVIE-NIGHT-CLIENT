@@ -6,6 +6,7 @@ import ProfilePage from "./pages/ProfilePage/ProfilePage";
 import SignupPage from "./pages/SignupPage/SignupPage";
 import LoginPage from "./pages/LoginPage/LoginPage";
 
+
 import Navbar from "./components/Navbar/Navbar";
 import IsPrivate from "./components/IsPrivate/IsPrivate";
 import IsAnon from "./components/IsAnon/IsAnon";
@@ -43,28 +44,6 @@ function App() {
             <IsAnon>
               <LoginPage />
             </IsAnon>
-          }
-        />
-
-
-        <Route
-          path="/movies"
-          element={
-              <MoviesPage />
-          }
-        />
-
-          <Route
-          path="/movies/create"
-          element={
-              <CreatePage />
-          }
-        />
-
-          <Route
-          path="/movies/edit/:id"
-          element={
-              <EditPage/>
           }
         />
 

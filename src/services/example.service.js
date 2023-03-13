@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-class ExampleService {
+class MoviesService {
   constructor() {
     this.api = axios.create({
       //usar las dos 
